@@ -1,0 +1,410 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+html {
+  font-size: 15px;
+  /* 1rem 지정하기 위해 */
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  line-height: 1.5em;
+  color: #1c1c1c;
+}
+
+#wrap {
+  min-width: 1400px;
+}
+
+/* main_banner */
+#main_banner {
+  height: 600px;
+  background: url(../images/franchise/main_banner.png) no-repeat center top;
+  margin: 100px auto;
+  overflow: hidden;
+}
+
+/* affiliated_store */
+#affiliated_store {
+  height: 760px;
+  margin: 0 auto;
+  width: 1320px;
+  text-align: center;
+}
+
+#affiliated_store h4 {
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+  line-height: 40px;
+  color: #354694;
+  padding: 120px 0 80px;
+}
+.count{
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+ padding-top: 80px;
+}
+.count .left{
+  margin-right: 200px;
+}
+.count h3{
+  font-size: 24px;
+}
+.count p{
+  margin: 7px 0 50px;
+}
+.count h1{
+  font-size: 120px;
+  color: #354694;
+}
+
+/* competitiveness */
+#competitiveness {
+  height: 838px;
+  background-color: #D9DFF9;
+  color: #354694;
+  text-align: center;
+}
+
+.inner_competitiveness {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.inner_competitiveness h1 {
+  font-size: 40px;
+  font-weight: 900;
+  padding: 80px 0 100px;
+}
+
+.competitiveness {
+  display: flex;
+  justify-content: space-between;
+}
+
+.competitiveness li {
+  width: 420px;
+  height: 500px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: #354694 5px solid;
+  border-radius: 30px;
+  padding: 30px 40px;
+}
+
+.competitiveness li h2 {
+  font-size: 35px;
+  font-weight: 900;
+  text-align: left;
+  line-height: 45px;
+}
+
+.competitiveness li:nth-child(1) h3 {
+  padding: 35px 0 40px;
+}
+
+.competitiveness li:nth-child(2) h3 {
+  padding: 20px 0 15px;
+}
+
+.competitiveness li:nth-child(3) h3 {
+  padding: 15px 0 25px;
+}
+
+.competitiveness li p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+/* opening_procedure */
+#opening_procedure {
+  width: 1320px;
+  margin: 0 auto;
+  height: 950px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#opening_procedure h1 {
+  color: #354694;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 150px;
+}
+
+#opening_procedure ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.opening_procedure_top {
+  margin-top: 100px;
+}
+
+.opening_procedure_bottom {
+  flex-wrap: wrap;
+}
+
+.opening_procedure_bottom li:nth-child(1) {
+  width: 1320px;
+  display: flex;
+  justify-content: right;
+  padding: 30px 66px 30px 0;
+}
+
+#opening_procedure ul li {
+  text-align: center;
+  color: #354694;
+}
+
+#opening_procedure ul li:hover .basic {
+  display: none;
+}
+
+.opening_procedure_top .arrow {
+  width: 55px;
+  background: url(../images/franchise/top_arrow.svg) no-repeat center top 70px;
+}
+
+.opening_procedure_bottom .arrow {
+  width: 55px;
+  background: url(../images/franchise/bottom_arrow.svg) no-repeat center top 70px;
+}
+
+.opening_procedure_hover {
+  width: 170px;
+  height: 170px;
+  border: #354694 solid 4px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.basic {
+  position: absolute;
+  top: -3.9px;
+  left: -4px;
+  z-index: 9;
+  width: 170px;
+  height: 170px;
+  background-color: #354694;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.basic h4 {
+  font-size: 65px;
+  font-weight: bolder;
+  margin: 52px 0 30px;
+}
+
+.basic p {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.opening_procedure_top li:nth-child(1) .opening_procedure_hover {
+  background: url(../images/franchise/procedure1.png) no-repeat center top 50px;
+}
+
+.opening_procedure_top li:nth-child(3) .opening_procedure_hover {
+  background: url(../images/franchise/procedure2.png) no-repeat center;
+}
+
+.opening_procedure_top li:nth-child(5) .opening_procedure_hover {
+  background: url(../images/franchise/procedure3.png) no-repeat center top 40px;
+}
+
+.opening_procedure_top li:nth-child(7) .opening_procedure_hover {
+  background: url(../images/franchise/procedure4.png) no-repeat center;
+}
+
+.opening_procedure_top li:nth-child(9) .opening_procedure_hover {
+  background: url(../images/franchise/procedure5.png) no-repeat left 50px center;
+}
+
+.opening_procedure_bottom li:nth-child(3) .opening_procedure_hover {
+  background: url(../images/franchise/procedure6.png) no-repeat center;
+}
+
+.opening_procedure_bottom li:nth-child(5) .opening_procedure_hover {
+  background: url(../images/franchise/procedure7.png) no-repeat left 42px center;
+}
+
+.opening_procedure_bottom li:nth-child(7) .opening_procedure_hover {
+  background: url(../images/franchise/procedure8.png) no-repeat left 42px center;
+}
+
+.opening_procedure_bottom li:nth-child(9) .opening_procedure_hover {
+  background: url(../images/franchise/procedure9.png) no-repeat left 46px top 26px;
+}
+
+#opening_procedure ul li h2 {
+  font-size: 20px;
+  margin: 20px 0 10px;
+  font-weight: 900;
+}
+
+#opening_procedure ul li p {
+  line-height: 18px;
+  font-weight: 400;
+}
+
+/* inquiry */
+@keyframes flow {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+#inquiry{
+  height: 130px;
+  position: relative;
+}
+.inner_inquiry_wrap {
+  background-color: #354694;
+  color: #ffffff;
+  height: 130px;
+  position: fixed;
+  top: 87%;
+  right: 0;
+  width: 100%;
+  z-index: 8;
+}
+
+.inner_inquiry {
+  width: 1320px;
+  margin: 0 auto;
+  height: 130px;
+  overflow: hidden;
+}
+
+.inquiry_butten button {
+  position: fixed;
+  top: 92%;
+  right: 13%;
+  z-index: 9;
+  width: 250px;
+  height: 80px;
+  border: none;
+  background-color: #354694;
+  font-size: 32px;
+  color: #ffffff;
+  font-weight: 900;
+  cursor: pointer;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px 30px 0 0;
+}
+.inquiry_butten button img{
+  margin-right: 25px;
+  transition: all 0.5s ease;
+}
+.rotate{
+  transform: rotate(180deg);
+  transform-origin: center;
+  
+}
+.textflow {
+  font-size: 18px;
+  position: relative;
+  height: 55px;
+  font-weight: bold;
+}
+
+.track {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  z-index: 999;
+  white-space: nowrap;
+  animation: flow 20s linear infinite;
+}
+.hide_content ul{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.hide_content ul li:nth-child(1){
+  width: 45px;
+  height: 45px;
+  background: #ffffff url(../images/franchise/phone.svg) no-repeat center;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.hide_content ul li:nth-child(2){
+  font-size: 30px;
+  font-weight: 900;
+  margin: 0 100px 0 0;
+  padding-left: 30px;
+  cursor: pointer;
+}
+.hide_content ul li:nth-child(3) input{
+  width: 150px;
+  height: 34px;
+  border: #ffffff 3px solid;
+  background-color: #354694;
+  border-radius: 7px;
+  color: #ffffff;
+  padding-left: 10px;
+  outline: none;
+}
+.hide_content ul li:nth-child(4) input{
+  width: 180px;
+  height: 34px;
+  border: #fff 3px solid;
+  background-color: #354694;
+  border-radius: 7px;
+  color: #ffffff;
+  padding-left: 10px;
+  margin: 0 30px 0 10px;
+  outline: none;
+}
+.hide_content ul li:nth-child(5) input{
+  width: 15px;
+  height: 15px;
+  border: #354694 3px solid;
+  margin-bottom: 21px;
+}
+.hide_content ul li:nth-child(6){
+  font-size: 15px;
+  line-height: 20px;
+  margin: 0 30px 0 10px;
+  text-decoration: underline;
+}
+.hide_content ul li:nth-child(7){
+  font-size: 24px;
+  font-weight: 900;
+  border: #ffffff 3px solid;
+  border-radius: 30px;
+  padding: 8px 20px;
+}
+.hide_content ul li:nth-child(7):hover{
+  background-color: #ffffff;
+  color: #354694;
+}

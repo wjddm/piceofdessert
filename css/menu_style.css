@@ -1,0 +1,322 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  html {
+    font-size: 15px;
+    /* 1rem 지정하기 위해 */
+  }
+  
+  body {
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 1.5em;
+    color: #354694;
+  }
+  
+  #wrap {
+    min-width: 1400px;
+  }
+  h1{
+    font-size: 40px;
+    font-weight: 900;
+  }
+  
+/* main_banner */
+#main_banner {
+  height: 600px;
+  margin: 100px auto;
+  overflow: hidden;
+  background: url(../images/menu/main_banner.png)no-repeat center top;
+}
+
+/* menu */
+#menu{
+  width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+.click_wrap{
+  height: 4400px;
+}
+.click{
+  position: sticky;
+  top: 40px;
+  padding-top: 100px;
+}
+.click ul li{
+  width: 95px;
+  height: 107px;
+  border: #354694 2px solid;
+  border-radius: 20px;
+  box-sizing: border-box;
+  cursor: pointer;  
+  margin-bottom: 3px;
+  overflow: hidden;
+}
+.click ul li:nth-child(1){
+  background: #fff url(../images/menu/cake_dessert_icon.png) no-repeat center top 10px;
+}
+.click ul li:nth-child(2){
+  top: 130px;
+  background: #fff url(../images/menu/bread_icon.png) no-repeat center top 17px;
+}
+.click ul li:nth-child(3){
+  top: 260px;
+  background: #fff url(../images/menu/coffee_icon.png) no-repeat center top 22px;
+}
+.click ul li:nth-child(4){
+  top: 390px;
+  background: #fff url(../images/menu/noncoffee_icon.png) no-repeat center top 4px;
+}
+
+.click li:nth-child(1):hover{
+  background: #354694 url(../images/menu/cake_dessert_icon_hover.png) no-repeat center top 10px;
+  color: #fff;
+}
+.click li:nth-child(2):hover{
+  background: #354694 url(../images/menu/bread_icon_hover.png) no-repeat center top 17px;
+  color: #fff;
+}
+.click li:nth-child(3):hover{
+  background: #354694 url(../images/menu/coffee_icon_hover.png) no-repeat center top 22px;
+  color: #fff;
+}
+.click li:nth-child(4):hover{
+  background: #354694 url(../images/menu/noncoffee_icon_hover.png) no-repeat center top 4px;
+  color: #fff;
+}
+.click li p{
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 65px;
+  line-height: 14px;
+}
+.click li:nth-child(2) p,
+.click li:nth-child(3) p{
+  margin-top: 78px;
+}
+
+
+
+/* menu_common_css */
+#cake_dessert,
+#bread,
+#coffee,
+#noncoffee{
+  width: 1150px;
+  margin: 130px 0 0 60px;
+  text-align: center;
+}
+#cake_dessert{
+  margin-top: 50px;
+}
+.menu_title{
+  box-sizing: border-box;
+  color: #fff;
+  padding: 50px 0 80px;
+  font-size: 30px;
+  height: 98px;
+  background: url(../images/menu/menu_bg.svg) no-repeat center top;
+}
+.menu_list{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu_list li{
+  position: relative;
+}
+#cake_dessert .menu_list li:hover .menu_img_wrap,
+#bread .menu_list li:hover .menu_img_wrap,
+#coffee .menu_list li:hover .menu_img_wrap,
+#noncoffee .menu_list li:hover .menu_img_wrap{
+  background: #fff;
+  border: 2px dashed #354694;
+}
+.menu_list p{
+  font-size: 16px;
+  font-weight: 900;
+  margin-top: 20px;
+}
+.menu_img_wrap{
+  width: 198px;
+  height: 198px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.menu_img_wrap .best{
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9;
+  color: #fff;
+  background-color: #354694;
+  padding: 20px 9px;
+  border-radius: 50%;
+  font-weight: 900;
+  font-size: 18px;
+}
+/* popup */
+.popup_open{
+  cursor: pointer;
+}
+#popup_wrap{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#popup{
+  width: 850px;
+  height: 520px;
+  background-color: #fff;   
+  padding: 40px 45px 0 45px;
+  box-sizing: border-box;
+  text-align: left;
+  border-radius: 60px 60px 80px 80px;
+  position: relative;
+}
+.popup_close{
+  cursor: pointer;
+  position: absolute;
+  top: 40px ;
+  right: 40px;
+  z-index: 999;
+}
+.popup_content{
+  display: flex ;
+}
+.popup_content_img{
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 70px;
+  box-sizing: border-box;
+}
+.popup_best{
+  position: absolute;
+  top: 70px;
+  left: 330px;
+  z-index: 999;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 900;
+  background-color: #354694;
+  border-radius: 50%;
+  padding: 26px 10px;
+}
+.popup_content_text h3{
+  margin-top: 50px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.popup_content_text h1{
+  margin: 14px 0 40px;
+  font-size: 35px;
+}
+.popup_content_text h2{
+  margin-top: 40px;
+  font-size: 17px;
+  font-weight: 900;
+  padding-top: 10px;
+  border-top: 2px solid #354694;
+}
+.popup_content_text p{
+  background: url(../images/menu/popup/point.png) no-repeat left center;
+  padding-left: 30px;
+  line-height: 20px;
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.nutritional_information{
+  box-sizing: border-box;
+  background-color: #354694;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 0 0 60px 60px;
+  color: #fff;
+  padding: 10px 40px;
+}
+.nutritional_information ul{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.nutritional_information ul li:nth-child(1){
+  padding-top: 15px;
+  font-size: 17px;
+  font-weight: 900;
+}
+.nutritional_information ul li p{
+  margin: 3px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.nutritional_information ul li h4{
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* cake_dessert */
+#cake_dessert .menu_img_wrap{
+  background-color: #E8F4FF;
+}
+#cake_dessert .popup_content_img{
+  background-color: #D4EAFF;
+}
+
+/* bread */
+#bread .menu_img_wrap{
+  background-color: #FFE8F5;
+}
+#bread .popup_content_img{
+  background-color: #FFE8F5;
+}
+
+/* coffee */
+#coffee .menu_img_wrap{
+  background-color: #EFE5F9;
+}
+#coffee .popup_content_img{
+  background-color: #EFE5F9;
+}
+
+/* noncoffee */
+#noncoffee .menu_img_wrap{
+  background-color: #FFF3DC;
+}
+#noncoffee .popup_content_img{
+  background-color: #FFF3DC;
+}

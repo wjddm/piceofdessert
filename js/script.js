@@ -1,0 +1,28 @@
+$('#butter').fadeTo(0,1).siblings().fadeTo(0,0.5);
+$(".butter").fadeIn().siblings().fadeOut();
+$(function(){
+    $("#butter").click(function(){
+            $(".butter").fadeIn().siblings().fadeOut();
+            $(this).fadeTo(0,1).siblings().fadeTo(0,0.5);
+    });	
+    $("#egg").click(function(){
+            $(".egg").fadeIn().siblings().fadeOut();
+            $(this).fadeTo(0,1).siblings().fadeTo(0,0.5);
+    });	
+    $("#flour").click(function(){
+            $(".flour").fadeIn().siblings().fadeOut();
+            $(this).fadeTo(0,1).siblings().fadeTo(0,0.5);
+    });	
+    $("#chocolate").click(function(){
+            $(".chocolate,.chocolate_text").fadeIn().siblings().fadeOut();
+            $(this).fadeTo(0,1).siblings().fadeTo(0,0.5);
+    });	
+    $("#fruit").click(function(){
+            $(".fruit,.fruit_text").fadeIn().siblings().fadeOut();
+            $(this).fadeTo(0,1).siblings().fadeTo(0,0.5);
+    });	
+    $("#nuts").click(function(){
+            $(".nuts,.nuts_text").fadeIn().siblings().fadeOut();
+            $(this).fadeTo(0,1).siblings().fadeTo(0,0.5);
+    });	
+});
