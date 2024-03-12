@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1323" height="97.709" viewBox="0 0 1323 97.709">
+  <g id="그룹_360" data-name="그룹 360" transform="translate(325.467 -281.041)">
+    <rect id="사각형_467" data-name="사각형 467" width="259.535" height="81.956" transform="translate(206.265 296.794)" fill="#354593"/>
+    <circle id="타원_115" data-name="타원 115" cx="4.796" cy="4.796" r="4.796" transform="translate(292.321 309.04)" fill="#fff"/>
+    <line id="선_340" data-name="선 340" y1="31.294" transform="translate(297.116 282.541)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4.5"/>
+    <line id="선_341" data-name="선 341" y1="31.294" transform="translate(297.116 282.541)" fill="none" stroke="#354593" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+    <circle id="타원_116" data-name="타원 116" cx="4.796" cy="4.796" r="4.796" transform="translate(370.153 309.04)" fill="#fff"/>
+    <line id="선_342" data-name="선 342" y1="31.294" transform="translate(374.949 282.541)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4.5"/>
+    <line id="선_343" data-name="선 343" y1="31.294" transform="translate(374.949 282.541)" fill="none" stroke="#354593" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+    <line id="선_344" data-name="선 344" x2="1320" transform="translate(-323.967 282.541)" fill="none" stroke="#354593" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+  </g>
+</svg>
