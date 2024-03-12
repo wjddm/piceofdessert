@@ -288,7 +288,7 @@ body {
   color: #ffffff;
   height: 130px;
   position: fixed;
-  top: 87%;
+  bottom: 0;
   right: 0;
   width: 100%;
   z-index: 8;
@@ -303,7 +303,7 @@ body {
 
 .inquiry_butten button {
   position: fixed;
-  top: 92%;
+  bottom: 0;
   right: 13%;
   z-index: 9;
   width: 250px;
