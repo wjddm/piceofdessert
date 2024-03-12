@@ -85,7 +85,7 @@
     margin: 0 20px;
   }
   #area, #district{
-    background-color: #fff;
+    background-color: transparent;
   }
   #area{
     margin-right: 15px;
