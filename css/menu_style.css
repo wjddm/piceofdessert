@@ -62,45 +62,49 @@
 .click ul li{
   width: 95px;
   height: 107px;
-  border: #354694 2px solid;
-  border-radius: 20px;
+  border-left: #354694 2px solid;
+  border-right: #354694 2px solid;
   box-sizing: border-box;
   cursor: pointer;  
-  margin-bottom: 3px;
+  margin-bottom: 0px;
   overflow: hidden;
+  color: #fff;
 }
 .click ul li:nth-child(1){
-  background: #fff url(../images/menu/cake_dessert_icon.png) no-repeat center top 10px;
+  background: #354694 url(../images/menu/cake_dessert_icon_hover.png) no-repeat center top 10px;
+  border-top: #354694 2px solid;
 }
 .click ul li:nth-child(2){
   top: 130px;
-  background: #fff url(../images/menu/bread_icon.png) no-repeat center top 17px;
+  background: #354694 url(../images/menu/bread_icon_hover.png) no-repeat center top 17px;
 }
 .click ul li:nth-child(3){
   top: 260px;
-  background: #fff url(../images/menu/coffee_icon.png) no-repeat center top 22px;
+  background: #354694 url(../images/menu/coffee_icon_hover.png) no-repeat center top 22px;
 }
 .click ul li:nth-child(4){
+  border-bottom: #354694 2px solid;
   top: 390px;
-  background: #fff url(../images/menu/noncoffee_icon.png) no-repeat center top 4px;
+  background: #354694 url(../images/menu/noncoffee_icon_hover.png) no-repeat center top 4px;
 }
 
 .click li:nth-child(1):hover{
-  background: #354694 url(../images/menu/cake_dessert_icon_hover.png) no-repeat center top 10px;
-  color: #fff;
+  background: #ffffff url(../images/menu/cake_dessert_icon.png) no-repeat center top 10px;
+  color: #354694;
 }
 .click li:nth-child(2):hover{
-  background: #354694 url(../images/menu/bread_icon_hover.png) no-repeat center top 17px;
-  color: #fff;
+  background: #ffffff url(../images/menu/bread_icon.png) no-repeat center top 17px;
+  color: #354694;
 }
 .click li:nth-child(3):hover{
-  background: #354694 url(../images/menu/coffee_icon_hover.png) no-repeat center top 22px;
-  color: #fff;
+  background: #ffffff url(../images/menu/coffee_icon.png) no-repeat center top 22px;
+  color: #354694;
 }
 .click li:nth-child(4):hover{
-  background: #354694 url(../images/menu/noncoffee_icon_hover.png) no-repeat center top 4px;
-  color: #fff;
+  background: #ffffff url(../images/menu/noncoffee_icon.png) no-repeat center top 4px;
+  color: #354694;
 }
+
 .click li p{
   font-size: 15px;
   font-weight: bold;
