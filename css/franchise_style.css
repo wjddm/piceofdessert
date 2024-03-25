@@ -134,12 +134,15 @@ body {
 }
 
 /* opening_procedure */
+.opening_procedure_wrap{
+  overflow: hidden;
+}
+
 #opening_procedure {
   width: 1320px;
   margin: 0 auto;
   height: 950px;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 #opening_procedure h1 {
